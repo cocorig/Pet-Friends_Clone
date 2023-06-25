@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/32cd117d3a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href=".//css/style.css">
+    <title>펫프렌즈</title>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="arrow"><i class="fa-solid fa-arrow-left"></i></a>
+        <h2 class="title">마이펫프</h2>
+        <div class="logo">
+            <a class="logo__alram" href="#"><i class="fa-regular fa-bell"></i></a>
+            <a class="logo__cart" href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+    </header>
+    <main class="main .my">
+    
+        <span class="my__title">내새꾸</span>
+        <div class="my__box">
+            <a class="my__puls"><i class="fa-solid fa-plus"></i></a>
+            <p class="my desc">함께 사는 아이에 대해 알려주세요!🐱🐶</p>
+        </div>
+    </main>
+
+
+    <section id="register">
+        <header class="register header">
+            <h2 class="title center">우리아이 등록</h2>
+            <a class="register__dle" href="#"><i class="fa-solid fa-x"></i></a>
+        </header>
+        <main class="main .register">
+            <div class="register__box">
+                <h1><mark class="half_highlight">어떤 반려동물을 키우고</mark> 계신가요?</h1>
+                <p class="register desc">펫프렌즈 고객님들 중 80% 이상이 반려동물을 등록하고 상품을 추천받고있어요!</p>
+            </div>
+            <div  class="contents">
+                <div class="content">
+                    <img src="./img/dog.jpg" alt="">
+                    <div>
+                        <input id="dog_radio" type="radio"  value="">
+                        <label for="dog_radio">강아지</label>
+                    </div>
+                </div>
+                <div class="content">
+                    <img src="./img/cat.jpg" alt="">
+                    <div>
+                        <input id="cat_radio" type="radio" value="" checked>
+                        <label for="cat_radio">고양이</label>
+                    </div>
+                </div>
+            </div>
+                <div class="register__input">
+                    <span class="input__desc">이름을 입력해주세요<span>*</span></span>
+                    <input class="input__name" type="text" placeholder="1~8자 이내로 작성해주세요" required maxlength="8">
+                </div>
+                <button class="register__btn">다음으로 넘어갈게요</button>
+        </main>
+    </section>
+</body>
+</html>
